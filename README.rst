@@ -23,5 +23,6 @@ Quick start
 3. Operations:
  - POST http://127.0.0.1:8000/rest/<model> -- create new model instance
  - GET http://127.0.0.1:8000/rest/<model>/<id>  -- get model instance with id
+ - GET http://127.0.0.1:8000/rest/<model>?param1=value1&param2=value2 -- get models instance with conditions
  - PUT http://127.0.0.1:8000/rest/<model>/<id>?param1=value1&param2=value2 -- change model instance with id
- - GET http://127.0.0.1:8000/rest/<model>?param=value&param2=value -- get models instance with conditions
+ - DELETE http://127.0.0.1:8000/rest/<model>/<id>  -- delete model instance with id
